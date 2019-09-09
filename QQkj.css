@@ -1,0 +1,98 @@
+.toubu_ul{
+	list-style: none;
+	display: inline;
+	vertical-align: middle;
+	margin-left: 170px;
+}
+.toubu_ul>li{
+	display: inline;
+	margin-right: 70px;
+	font-size: 20px;
+}
+div{
+	background-color:white;
+	text-align: center;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+.toubu_div>img{
+	width: 190px;
+	height: 50px;
+	vertical-align: middle;
+}
+.toubu_div li:hover{
+	color: blue;
+}
+.zhongbu_big_div{
+	background-color: rgb(255, 202, 6);
+	width: 4000px;
+	height: 520px;
+	margin-top: 50px;
+	position: absolute;
+}
+
+.lb_div{
+	width: 4000px;
+	animation: lb 5s infinite;
+	position: relative;
+}
+.lb_div > img{
+	display: inline-block;
+	margin-left: 0px;
+	width: 1300px;
+	height: 500px;
+}
+.lb_show_width{
+	width: 1300px;	
+	overflow: hidden;
+	margin: 0 auto;
+    margin-top: 50px;
+}
+@keyframes lb{
+	0&{
+		margin-left: 0;
+	}
+	50%{
+		margin-left: -1294px;
+	}
+	100%{
+		margin-left: -2598px;
+	}
+}
+.weibu_div{
+	width: 1920px;
+	height: 200px;
+	position: absolute;
+}
+.weibu_ul1{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 100px;
+	left: 400px;
+	position: absolute;
+	height: 100px;
+	width: 1000px;
+	overflow: hidden;
+	
+}
+.weibu_ul1 li{
+	display: inline-block;
+	list-style: none;
+	width: 300px;
+	height: 200px;
+}
+.li_img{
+	width:90px ;
+	height: 100;
+	position: absolute;
+}
+.weibu_erweima{
+	background-image: url(img/erweima.png);
+	margin: auto;
+	
+}
+.erweimaweizhi{
+	position: absolute;
+	left: 0px;
+	bottom: 24px;
+}
